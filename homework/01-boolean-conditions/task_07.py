@@ -28,3 +28,7 @@
 #     False
 
 # Решение
+
+quantity = 48
+
+print(False if quantity % 4 or 6 == 0 else True)

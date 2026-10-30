@@ -41,3 +41,10 @@
 #     True
 
 # Решение
+
+price = 1000; price1 1001
+
+if (price > 1000 and price2 <= 1000) or (price1 1000 and price2 > 1000):
+    print(True)
+else: 
+    print(False)

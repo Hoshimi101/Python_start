@@ -30,3 +30,14 @@
 #     Полный билет: False
 
 # Решение
+
+## Задание 1
+
+person = int("12")
+
+if person <= 17:
+    print("Льготный билет")
+elif person <= 50:
+    print("Полный билет")
+elif person >= 51:
+    print("Льготный билет")

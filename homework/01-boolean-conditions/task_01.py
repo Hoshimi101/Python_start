@@ -39,3 +39,9 @@
 #     False
 
 # Решение
+
+## Задание 1
+
+stock = int("5"); price = int("1200"); money = int("1500") 
+
+print(stock > 0 and money >= price)

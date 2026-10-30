@@ -49,3 +49,11 @@
 #     False
 
 # Решение
+
+## Задание 1
+
+cash = ("нет"); cash1 = ("да"); cash2 = ("нет")
+
+summa = [cash, cash1, cash2]
+
+print(summa.count("да") == 1)

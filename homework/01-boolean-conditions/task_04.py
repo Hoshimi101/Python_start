@@ -44,3 +44,15 @@
 #     Позвонить покупателю: False
 
 # Решение
+
+pay = "нет"; pro = "да"; addr = "нет"
+
+if pro == "да" and (pay == "да" or addr == "нет"):
+    print("Звонить:", True)
+elif pro == "да" and (pay == "да" or addr == "да"):
+    print("Звонить:", False)
+
+if pro == "да" and pay == "да" and addr == "да":
+    print("Отправить:", True)
+else:
+    print("Отправлять:", False)

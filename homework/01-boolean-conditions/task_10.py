@@ -49,3 +49,11 @@
 #     Допущен: False
 
 # Решение
+
+studentAtt = 75
+studentLab = 10
+
+if studentAtt >= 75 and studentLab >= 8:
+    print(True)
+else:
+    print(False)

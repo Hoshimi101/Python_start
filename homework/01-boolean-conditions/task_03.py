@@ -50,3 +50,10 @@
 #     Можно на аттракцион: False
 
 # Решение
+
+growth = 110; age = 10; adult = "Yes"
+
+if growth >= 120 and (age >= 10 or adult == "Yes"):
+    print(True)
+else:
+    print(False)

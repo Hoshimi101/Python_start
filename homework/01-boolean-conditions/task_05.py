@@ -31,3 +31,9 @@
 #     Сессия закрыта: False
 
 # Решение
+
+exam1, exam2, exam3 = 39, 70, 12
+
+examsumm = (exam1 >= 40) + (exam2 >= 40) + (exam3 >= 40)
+print(examsumm)
+print(examsumm == 3)
