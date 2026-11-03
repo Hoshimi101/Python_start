@@ -58,3 +58,10 @@
 #     Нужно сдать в багаж
 
 # Решение
+
+lenght = 40; width = 30; height = 15; weight = 10.5
+
+if lenght <= 55 and width <= 40 and height <= 20 and weight <= 10:
+    print("Можно взять в салон.")
+else:
+    print("Нужно сдать в багаж.")

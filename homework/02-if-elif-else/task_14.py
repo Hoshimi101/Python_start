@@ -60,3 +60,22 @@
 #     Ошибка ввода
 
 # Решение
+
+time = "Да"; score = 12
+
+if score <0 or score > 10:
+    print("Ошибка ввода")
+elif time == "Да":
+    if 9 <= score <= 10:
+        print("Оценка: 5")
+    elif 7 <= score <= 8:
+        print("Оценка: 4")
+    elif 5 <= score <= 6:
+        print("Оценка: 3") 
+    else:
+        print("Работа не зачтена")
+else:
+    if score >= 5:
+        print("Оценка: 3")
+    else:
+        print("Работа не зачтена")

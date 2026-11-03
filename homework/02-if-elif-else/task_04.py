@@ -51,3 +51,13 @@
 #     Опоздание на 3 ч
 
 # Решение
+
+start = 10 ; end = 12; arrival = 15
+
+if arrival < start:
+    print("Раньше интервала.")
+elif arrival <= end:
+    print("Вовремя.")
+else:
+    delay = arrival - end
+    print(f"Опоздание на: {delay} ч.")

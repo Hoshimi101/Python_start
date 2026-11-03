@@ -47,3 +47,20 @@
 #     Отпуск согласован
 
 # Решение
+
+work = 12; vacation = 28
+
+print(f"Отработано месяцев: {work}")
+print(f"Дней отпуска: {vacation}")
+
+if work <= 5:
+    print("Отпуск пока недоступен.")
+else:
+    wrk = (work * 28) // 12
+    print(f"Доступно дней: {wrk}")
+
+if vacation <= wrk:
+    print("Отпуск согласован.")
+else:
+    md = vocation - wrk
+    print(f"Не хватает дней: {md}")

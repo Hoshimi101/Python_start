@@ -51,3 +51,19 @@
 #     Штраф: 5000 руб.
 
 # Решение
+
+allowed = 40; actual = 121
+
+over_speed = actual - allowed
+
+if over_speed <= 20:
+    fine = 0
+elif over_speed <= 40:
+    fine = 750
+elif over_speed <= 60:
+    fine = 1500
+elif over_speed <= 80:
+    fine = 2500
+else:
+    fine = 5000
+    print(f"Штраф: {fine} руб.")

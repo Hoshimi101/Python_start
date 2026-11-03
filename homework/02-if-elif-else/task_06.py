@@ -43,3 +43,17 @@
 #     Кешбэк: 0.00 руб.
 
 # Решение
+
+category = "кафе"; amount = 1200
+
+print(f"Категория: {category}."); print(f"Сумма покупки: {amount}.")
+
+if category == "азс":
+    cashback = amount * 0.05
+elif category == "аптека":
+    cashback = amount * 0.03
+elif category == "супермаркет":
+    cashback = amount * 0.01
+else:
+    cashback = 0.0
+    print(f"Кешбэк: {cashback:.2f} руб.")
